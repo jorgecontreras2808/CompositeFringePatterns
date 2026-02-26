@@ -9,7 +9,7 @@ filepath = fileparts(mfilename('fullpath'));
 % Adds the needed functions to the matlab path
 run ([filepath '\MATLAB_API\MATLAB_APIMain.m'])
 
-% Define the steps number and defines the folder loaded, the name convention is
+% Define the steps number and defines the folder loaded, the naming convention is
 % AdquiredHighFreqA and AdquiredLowFreqA, where A, indicates the number of
 % steps (6, 8, or 12) 
 steps = 6;

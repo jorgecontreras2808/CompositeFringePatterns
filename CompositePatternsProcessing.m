@@ -9,7 +9,7 @@ filepath = fileparts(mfilename('fullpath'));
 % Adds the needed functions to the matlab path
 run ([filepath '\MATLAB_API\MATLAB_APIMain.m'])
 
-% Modify depending of the folder, the name convention is
+% Modify depending of the folder, the naming convention is
 % AdquiredCompositeAWB, where A, indicates the number of steps(8 or 12), and B indicate the temporal frequency(2, 3, or 4) 
 steps = 8;
 w1 = 2;
