@@ -3,28 +3,31 @@ The data and code that support the findings of the article "Composite fringe pat
 
 The Sructure of the project is the following:
 Folders of adquired images
-� Adquired composite patterns. The naming convention is AdquiredCompositeAWB, where A, indicates the number of steps(8 or 12), and B indicate the temporal frequency(2, 3, or 4) 
-����AquiredComposite12W2
-����AquiredComposite12W4
-����AquiredComposite8W2
-����AquiredComposite8W3
++- Adquired composite patterns. The naming convention is AdquiredCompositeAWB, where A, indicates the number of steps(8 or 12), and B indicate the temporal frequency(2, 3, or 4) 
++---AquiredComposite12W2
++---AquiredComposite12W4
++---AquiredComposite8W2
++---AquiredComposite8W3
 
-� Adquired High- and Low frequency patterns. The naming convention is AdquiredHighFreqA and AdquiredLowFreqA, where A, indicates the number of steps
-����AquiredHighFreq12
-����AquiredHighFreq6
-����AquiredHighFreq8
-����AquiredLowFreq12
-����AquiredLowFreq6
-����AquiredLowFreq8
-����CalibrationFiles
++- Adquired High- and Low frequency patterns. The naming convention is AdquiredHighFreqA and AdquiredLowFreqA, where A, indicates the number of steps
++---AquiredHighFreq12
++---AquiredHighFreq6
++---AquiredHighFreq8
++---AquiredLowFreq12
++---AquiredLowFreq6
++---AquiredLowFreq8
 
-� The MATLAB API includes the necessary functions for processing images, generating surfaces, and creating figures.
-����MATLAB_API
-    ����Classes
-    ����Enums
-    ����FigureGeneration
-    ����Helpers
-    ����PSAs
++- Calibration files of the experimental system, used for image correction and units convertion.
++---CalibrationFiles
+
++- The MATLAB API includes the necessary functions for processing images, generating surfaces, and creating figures.
+\---MATLAB_API
+    +---Classes
+    +---Enums
+    +---FigureGeneration
+    +---Helpers
+    \---PSAs
+
  
 The main code files are as follows:
  - CompositePatternsProcessing.m
